@@ -1,0 +1,22 @@
+[
+    {
+        "Id" : "WorkDir", 
+        "Field" : "work-dir", 
+        "Section" : "user", 
+        "Default" : "%(WorkDir)s",
+        "Required" : true,
+        "Folder" : true
+    },
+    {
+        "Id" : "Editor",
+        "Field" : "default-editor",
+        "Section" : "user", 
+        "Default" : "notepad"
+    },
+    {
+        "Id" : "EditorArgs",
+        "Field" : "editor-arguments", 
+        "Section" : "user", 
+        "Default" : ""
+    }
+]
